@@ -14,4 +14,8 @@ public class Car {
 	void brake() {
 		System.out.println("You step on the brake");
 	}
+	
+	public String toString () {
+		return make + "\n" + model + "\n" + color  + "\n" + year;
+	}
 }
