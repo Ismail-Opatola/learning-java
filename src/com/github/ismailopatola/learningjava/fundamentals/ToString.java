@@ -9,10 +9,10 @@ public class ToString {
 		 * implicitly called when we use the println statement
 		 */
 		
-		Car car = new Car();
+		Car car = new Car("Lambo");
 		
 		System.out.println(car); // ex. print address of obj but we've override toString in Car constructor to print the cars instead
-		System.out.println(car.toString()); // ex. print address of obj but we've override toString in Car constructor  to print the cars instead
+		System.out.println(car.toString()); // ex. print address of obj but we've override toString in Car constructor 
 
 	}
 
