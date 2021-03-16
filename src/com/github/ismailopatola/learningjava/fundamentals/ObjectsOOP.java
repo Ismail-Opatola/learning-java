@@ -11,8 +11,8 @@ public class ObjectsOOP {
 		 */
 		
 		// construct an instance
-		Car myCar1 = new Car();
-		Car myCar2 = new Car();
+		Car myCar1 = new Car("Bema");
+		Car myCar2 = new Car("Lambo");
 		
 		System.out.println(myCar1.make);
 		System.out.println(myCar1.model);

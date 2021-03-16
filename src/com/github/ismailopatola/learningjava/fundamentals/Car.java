@@ -7,6 +7,12 @@ public class Car {
 	String color = "blue";
 	double price = 500000.00;
 	
+	String name;
+	
+	public Car(String name) {
+		this.name = name;
+	}
+	
 	void drive () {
 		System.out.println("You drive the car");
 	}
