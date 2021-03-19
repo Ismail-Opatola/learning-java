@@ -19,7 +19,7 @@ public class FileWriterClass {
 			
 			// add new content at the end of file content
 			writer.append("\n(A peom by Bro)");
-			writer.
+
 			writer.close();
 			
 		} catch (Exception e) {
