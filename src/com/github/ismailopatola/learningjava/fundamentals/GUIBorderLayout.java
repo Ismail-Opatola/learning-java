@@ -17,7 +17,7 @@ public class GUIBorderLayout {
 		 * Layout Manager - Defines the natural layout for components 
 		 * within a container
 		 * 
-		 * 3 common managers
+		 * 3 common layout managers - borderlayout, flowlayout, gridlayout
 		 * 
 		 * BorderLayout
 		 * ------------
@@ -48,7 +48,7 @@ public class GUIBorderLayout {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
-		frame.setLayout(new BorderLayout(10, 10)); // BorderLayout(margin)
+		frame.setLayout(new BorderLayout(10, 10)); // BorderLayout(margin), frame uses BorderLayout by default
 		frame.setVisible(true);
 		
 		/**
