@@ -3,7 +3,6 @@ package com.github.ismailopatola.learningjava.fundamentals;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Frame;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
