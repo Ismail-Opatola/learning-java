@@ -68,7 +68,7 @@ public class MyFrame5 extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		/**
-		 * if event is btn
+		 * 
 		 * 
 		 */
 		
