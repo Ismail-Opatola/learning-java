@@ -10,8 +10,8 @@ public class GUIProgressBar {
 		 * know that an operation is processing
 		 */
 		
-		new ProgressBarDemo();
 
+		new ProgressBarDemo();
 		
 	}
 
