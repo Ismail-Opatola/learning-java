@@ -2,6 +2,7 @@ package com.github.ismailopatola.learningjava.aptech;
 
 import java.util.Scanner;
 
+
 //import java.io.*;
 //import java.util.*;
 //import java.text.*;
@@ -20,7 +21,7 @@ public class Source {
         double root1, root2;
 		
         // Read the variable from STDIN
-        System.out.println("Enter 3 numbers a, b, c: ");
+//        System.out.println("Enter 3 numbers a, b, c: ");
         
         a = in.nextInt();
         b = in.nextInt();
@@ -31,7 +32,7 @@ public class Source {
         // Output the variable to STDOUT
         if(d < 0){
             root1 = -b / (2 * a);
-            root2 = Math.sqrt(-d) / (2 * a);
+        	root2 = Math.sqrt(-d) / (2 * a);
             
             System.out.println("Roots are complex numbers");
             System.out.printf("Roots of quadratic equation are: %.3f %.3f",root1,root2);
@@ -55,3 +56,15 @@ public class Source {
         
    }
 }
+
+//import java.util.locale;
+//import java.util.ResourceBundle;
+//import java.util.internalizationApplication;
+//import javax.swing.text.InternationalFormatter;
+
+/*
+ * Internalization (i18n) and localization (l10n)
+ * alpha-2, alpha-3 ISO 639 standard
+ * 
+ * Unicode
+ * */
