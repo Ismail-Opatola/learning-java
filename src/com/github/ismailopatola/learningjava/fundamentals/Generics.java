@@ -77,8 +77,10 @@ public class Generics {
 		// you can create the objects of a generic class to have data
 		// of specific derived types ex. Number
 		
-//		MyGenericClass<Integer, Integer> myInt2 = new MyGenericClass<>(1, 9);
-//		MyGenericClass<Double, Double> myDouble2 = new MyGenericClass<>(3.14, 1.01);
+//		MyGenericClass<Integer, Integer> myInt2 = new MyGenericClass<>(1, 9); // pass
+//		MyGenericClass<Double, Double> myDouble2 = new MyGenericClass<>(3.14, 1.01); // pass
+//		MyGenericClass<Character, Character> myChar2 = new MyGenericClass<>('@', '#'); // fail
+//		MyGenericClass<String, Character> myString2 = new MyGenericClass<>("Hello", '!'); // fail
 		
 		
 		
