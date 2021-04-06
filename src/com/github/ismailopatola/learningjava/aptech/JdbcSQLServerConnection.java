@@ -10,9 +10,12 @@ public class JdbcSQLServerConnection {
 		Connection conn = null;
 		try {
 			/**
+			 * java mssql connection windows authentication eclipse
+			 * 
 			 * refs
 			 * ----
 			 * https://stackoverflow.com/questions/6087819/jdbc-sqlserverexception-this-driver-is-not-configured-for-integrated-authentic
+			 * 
 			 */
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");		
 //			String dbURL = "jdbc:sqlserver://DESKTOP-EG49PRD;instaceName=DESKTOP-EG49PRD;DatabaseName=FooDB";
